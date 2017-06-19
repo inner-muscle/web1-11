@@ -9,6 +9,7 @@ while(1)
  
 if(answer === number) {
   message = 'あたり！';
+ break;
 }else if (answer < number){
    message = '残念！もっと大きいです！';
 }else if (number < answer){
@@ -17,6 +18,7 @@ if(answer === number) {
     message = '0～3の数字を入力してください!';
   
 }
+ 
  answer = parseInt(window.prompt('数当てゲーム。0～2の数字を入力してください！'));
 }
 
