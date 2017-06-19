@@ -15,7 +15,7 @@ if(answer === number) {
   }
       
 
-  document.getElementByid('choice').textContent = message;
+  document.getElementById('choice').textContent = message;
         
        
 
